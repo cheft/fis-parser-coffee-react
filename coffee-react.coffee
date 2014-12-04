@@ -15,9 +15,9 @@ TodoApp = React.createClass
         @setState items: nextItems, text: nextText
 
     render: ->
-    	<div>
-        	<div></div>
-			<button></button>
-	    </div>
+    	React.createElement(React.DOM.div, null,  
+        	React.createElement(React.DOM.div, null),  
+			React.createElement(React.DOM.button, null) 
+	    )
                     
-React.render <TodoApp />,  $('#demo')[0]
+React.render React.createElement(TodoApp, null),  $('#demo')[0]
