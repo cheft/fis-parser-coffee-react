@@ -1,0 +1,30 @@
+{
+  "name": "fis-parser-coffee-react",
+  "version": "0.0.5",
+  "description": "a parser plugin for fis to precompile coffee and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cheft/fis-parser-coffee-react.git"
+  },
+  "keywords": [
+    "fis",
+    "coffee",
+    "react",
+    "plugin",
+    "parser"
+  ],
+  "author": "react <7720829@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cheft/fis-parser-coffee-react/issues"
+  },
+  "homepage": "https://github.com/cheft/fis-parser-coffee-react",
+  "dependencies": {
+    "coffee-react-transform": "1.0.0"
+  },
+  "devDependencies": {}
+}

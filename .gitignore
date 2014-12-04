@@ -1,0 +1,12 @@
+
+.DS_Store
+*.db
+*.bak
+*.tmp
+*.cmd
+~*
+
+node_modules
+bower_components
+
+upload.py
