@@ -15,9 +15,12 @@ TodoApp = React.createClass
         @setState items: nextItems, text: nextText
 
     render: ->
-    	React.createElement(React.DOM.div, null,  
-        	React.createElement(React.DOM.div, null),  
-			React.createElement(React.DOM.button, null) 
-	    )
+    	React.createElement 'div', null, 
+            React.createElement('div', {className: 'alert alert-info'}, '任务列表'), 
+            React.createElement(TodoList, {items: @state.items}), 
+            React.createElement('form', {onSubmit: @handleSubmit}
+                React.createElement('input', {className: 'form-group form-control', onChange: @onChange, value: @state.text}), 
+                React.createElement('button', {className: 'btn btn-success glyphicon-plus'}, ' 增加 (' + (@state.items.length + 1) + ')')
+            )
                     
 React.render React.createElement(TodoApp, null),  $('#demo')[0]

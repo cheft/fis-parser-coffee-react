@@ -1,6 +1,6 @@
 {
   "name": "fis-parser-coffee-react",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "a parser plugin for fis to precompile coffee react to js",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/cheft/fis-parser-coffee-react",
   "dependencies": {
-    "coffee-react-transform": "1.0.0",
+    "coffee-react-transform": "2.1.0",
     "coffee-script": "1.8.0"
   },
   "devDependencies": {}
