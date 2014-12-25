@@ -1,6 +1,6 @@
 {
   "name": "fis-parser-coffee-react",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "description": "A parser plugin for fis to complie coffee & react code to js",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "plugin",
     "parser"
   ],
-  "author": "react <cn.cheft@gmail.com>",
+  "author": "cheft <cn.cheft@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cheft/fis-parser-coffee-react/issues"
