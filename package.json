@@ -1,6 +1,6 @@
 {
   "name": "fis-parser-coffee-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A parser plugin for fis to complie coffee & react code to js",
   "main": "index.js",
   "scripts": {
